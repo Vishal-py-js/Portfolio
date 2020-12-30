@@ -26,7 +26,7 @@ SECRET_KEY = '!+*cp%8@)ivwi#7=v^rlu3j&s9n0@j=nf2tjc^rqm)=6*y!gng'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['portfolio-website45.herokuapp.com']
+ALLOWED_HOSTS = ['portfolio-website45.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Mywebsite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['TEMPLATE_DIR'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
