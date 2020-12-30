@@ -1,0 +1,95 @@
+{% load static %}
+{% include 'Myprofile/navbar.html' %}
+<!DOCTYPE <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Vishal Kumar</title>
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main1.css' %}">
+    
+</head>
+
+
+<body id="body-color">
+
+    
+    <br>
+    <div style="padding-top: 4rem;" class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/mydp1.jpg' %}">
+                    <hr>
+                    <h4>Hi I'm Vishal!</h4>
+                    <p>I love coding and building amazing web apps.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div id="profile-wrapperr" class="card card-body h-100 border-info">
+                    <h4>My First Job(Make changes)</h4>
+                    <hr>
+                    <p>Make changes here......</p>
+                    <p>Then here..</p>
+                    <p>Here also, if needed...</p>
+
+                  
+                    <ul id="ul" class="social-links">
+                        <h6>Social media handles</h6>
+                        <li><a href="https://www.facebook.com/vsk0619" target="blank"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+                        <li><a href="https://www.instagram.com/vishalk83/" target="blank"><img class="social" src="{% static 'images/Instagram.jpg' %}"></a></li>
+                        <li><a href="https://www.linkedin.com/in/vishalrti/" target="blank"><img class="social" src="{% static 'images/LinkedIn.png' %}"></a></li>
+                    </ul>
+                   
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="profile-wrapperr" class="card card-body h-100">
+                    <h4>Work Experience</h4>
+                    <hr>
+                    <p>Work description goes here....</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="profile-wrapperr" class="card card-body h-100">
+                    <h4>What I know</h4>
+                    <hr>
+                        <p>
+                            Python<br>
+                            Django Framework<br>
+                            JavaScript<br>
+                            React.js<br>
+                            HTML<br>
+                            CSS
+                        </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="profile-wrapperr" class="card card-body h-100">
+                    <h4>Personal projects</h4>
+                    <hr>
+                    <p>Projects and their details....</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="profile-wrapperr" class="card card-body h-100">
+                    <h4>How I learn</h4>
+                    <hr>
+                    <p>.......</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+</body>
+</html>
