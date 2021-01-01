@@ -1,6 +1,6 @@
 {% load static %}
 
-    <nav style="opacity: 0.9;" class="navbar navbar-expand-sm fixed-top navbar-light bg-dark">
+    <nav style="background: black; opacity: 0.9;" class="navbar navbar-expand-sm fixed-top navbar-light">
         <a style="color: white; font-family: Georgia;" class="navbar-brand" href="#">Welcome &#128578</a>
         <button style="color: aliceblue;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -14,7 +14,11 @@
             <li class="nav-item">
               <a style="color:white;" class="nav-link" href="{% url 'my-projects' %}">Projects</a>
             </li>
-            
+          </ul>
+          <ul id="ul" class="social-links">
+            <li><a href="https://www.facebook.com/vsk0619" target="blank"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+            <li><a href="https://www.instagram.com/vishalk83/" target="blank"><img class="social" src="{% static 'images/Instagram.jpg' %}"></a></li>
+            <li><a href="https://www.linkedin.com/in/vishalrti/" target="blank"><img class="social" src="{% static 'images/LinkedIn.png' %}"></a></li>
           </ul>
         </div>
       </nav>
