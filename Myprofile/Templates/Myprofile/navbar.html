@@ -1,24 +1,19 @@
 {% load static %}
 
-    <nav style="background: black; opacity: 0.9;" class="navbar navbar-expand-sm fixed-top navbar-light">
-        <a style="color: white;" class="navbar-brand" href="#">Welcome &#128578</a>
+    <nav style="background: black; opacity: 0.9; font-size: large;" class="navbar navbar-expand-sm fixed-top navbar-light">
+        <a style="color: white;" class="navbar-brand" href="#"><strong>Welcome &#128578</strong></a>
         <button style="color: aliceblue;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul style="font-size: large;" class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a style="color:white;" class="nav-link" href="{% url 'home' %}"><strong>Home </strong><span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a style="color:white;" class="nav-link" href="{% url 'my-projects' %}"><strong>Projects </strong></a>
             </li>
-          </ul>
-          <ul id="ul" class="social-links">
-            <li><a href="https://www.facebook.com/vsk0619" target="blank"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
-            <li><a href="https://www.instagram.com/vishalk83/" target="blank"><img class="social" src="{% static 'images/Instagram.jpg' %}"></a></li>
-            <li><a href="https://www.linkedin.com/in/vishalrti/" target="blank"><img class="social" src="{% static 'images/LinkedIn.png' %}"></a></li>
           </ul>
         </div>
       </nav>

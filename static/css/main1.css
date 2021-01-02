@@ -43,6 +43,7 @@
 #ul {
   padding: 0;
   list-style-type: none;
+  text-align: center;
 }
 
 .social-links ul,
@@ -52,11 +53,11 @@ li {
 }
 
 .social {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 5px;
+  margin-top: 6rem;
 }
 
 h4 {
@@ -65,4 +66,9 @@ h4 {
 
 p {
   font-size: 18px;
+}
+
+.footer {
+  background-image: url("/static/images/background.jpg");
+  height: 30%;
 }
