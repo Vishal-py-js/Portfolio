@@ -11,7 +11,7 @@
 }
 
 #profile-wrapperr {
-  background-color: white;
+  background-color:white;
   background-repeat: no-repeat;
   box-shadow: 0px 5px 20px rgb(63, 63, 71);
   background-size: cover;
@@ -53,11 +53,10 @@ li {
 }
 
 .social {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 6rem;
 }
 
 h4 {
@@ -71,4 +70,14 @@ p {
 .footer {
   background-image: url("/static/images/background.jpg");
   height: 30%;
+  text-align: center;
+}
+
+.contact {
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  margin-right: 30px;
+  text-align: center;
+  padding-top: 60px;
 }
