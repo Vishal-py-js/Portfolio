@@ -1,6 +1,6 @@
 #body-color {
-  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  color: black;
 }
 
 #profile-wrapper {
@@ -70,6 +70,7 @@ p {
 }
 
 .footer {
+  color: black;
   background-image: url("/static/images/background.jpg");
   height: 30%;
   text-align: center;
