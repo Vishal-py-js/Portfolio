@@ -1,8 +1,10 @@
 #body-color {
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 #profile-wrapper {
+  background-color:rgb(227, 229, 245);
   font-weight: 500;
   text-align: center;
   font-style: oblique;
@@ -11,7 +13,7 @@
 }
 
 #profile-wrapperr {
-  background-color:white;
+  background-color:rgb(227, 229, 245);
   background-repeat: no-repeat;
   box-shadow: 0px 5px 20px rgb(63, 63, 71);
   background-size: cover;
